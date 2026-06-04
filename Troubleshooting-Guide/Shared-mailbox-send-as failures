@@ -1,1 +1,31 @@
+## Overview
+Problem Description
+Users cannot send emails using a shared mailbox identity even after permissions are assigned.
 
+Symptoms:
+“You do not have permission to send on behalf of this user”
+Email sent from personal address instead of shared mailbox
+Send As option missing in Outlook
+
+## Common Cause
+- Send As permission not fully propagated
+- Outlook cache not updated
+- Autodiscover not refreshed
+- Shared mailbox not fully converted or configured
+
+## Troubleshooting Steps
+- Confirm Full Access exist
+- Wait for Propagation Delay
+- Can take 30 minutes to 2 hours
+
+## Restart Outlook / Re-login
+- Close Outlook completely
+- Sign out of Office 365
+- Sign back in
+
+#Outcome
+To: 
+- Improved incident resolution for Exchange Online issues
+- Standardized troubleshooting approach for IT support teams
+- Reduced downtime caused by permission delays and rule conflicts
+- Enhanced understanding of Microsoft 365 mail flow architecture
